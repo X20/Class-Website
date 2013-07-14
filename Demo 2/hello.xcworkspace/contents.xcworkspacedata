@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:static"
+      name = "static">
+      <FileRef
+         location = "group:homepage.css">
+      </FileRef>
+      <FileRef
+         location = "group:index.css">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:userlogin"
+      name = "userlogin">
+      <FileRef
+         location = "group:__init__.py">
+      </FileRef>
+      <FileRef
+         location = "group:models.py">
+      </FileRef>
+      <FileRef
+         location = "group:tests.py">
+      </FileRef>
+      <FileRef
+         location = "group:views.py">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:templates"
+      name = "templates">
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+      <FileRef
+         location = "group:indexw.html">
+      </FileRef>
+      <FileRef
+         location = "group:homepage.html">
+      </FileRef>
+      <FileRef
+         location = "group:userindex.html">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:hello"
+      name = "hello">
+      <FileRef
+         location = "group:__init__.py">
+      </FileRef>
+      <FileRef
+         location = "group:__init__.pyc">
+      </FileRef>
+      <FileRef
+         location = "group:settings.py">
+      </FileRef>
+      <FileRef
+         location = "group:settings.pyc">
+      </FileRef>
+      <FileRef
+         location = "group:urls.py">
+      </FileRef>
+      <FileRef
+         location = "group:wsgi.py">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:manage.py">
+   </FileRef>
+</Workspace>
