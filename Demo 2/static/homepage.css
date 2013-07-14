@@ -1,0 +1,120 @@
+.d
+{
+    //border: red solid thin;
+    border-radius: 15px;
+    font-family: "Myriad Pro";
+}
+
+body
+{
+    background-color: rgb(162,253,126);
+}
+#indent
+{
+    height: 100px;
+}
+
+#header
+{
+    //background-image: url(image/4.jpg);
+    //background-repeat: no-repeat;
+    
+    background-color: rgb(119,205,64);
+
+    font-family: Menlo;
+    
+    padding: 0px;
+    margin: 10px;
+    
+    height: 93px;
+    position: fixed;
+
+    top: 0px;
+    width: 1150px;
+    //border: white solid thin;
+}
+    #userinfo
+    {
+        padding: 10px;
+        
+        position: reletive;
+        float: left;
+
+        width: 300px;
+        height: 73px;
+        //border: blue solid thin;
+    }
+        #userhead
+        {
+            position: reletive;
+            float: left;
+        }
+        #userother
+        {
+            position: reletive;
+            float: left;
+            
+            padding: 10px;
+        }
+    #logo
+    {
+        position: reletive;
+        float: left;
+    }
+#friends
+{
+    padding: 10px;
+    
+    width: 100px;
+    height: 400px;
+    
+    text-align: center;
+    
+    font-size: 13pt;
+    
+    margin: 10px;
+    /*
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-width: 200px;
+    */
+    
+    background-color: rgb(119,205,64);
+
+    color: white;
+    
+    position: reletive;
+    float: left;
+    
+    //border: red solid thin;
+}
+    #friend
+    {
+        padding: 20px;
+        
+        background-color: rgb(85,142,40);
+        
+        margin: 5px;
+
+        /*
+        background-image: url(image/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        */
+    }
+#messages
+{
+    position: reletive;
+    float: left;
+    
+    padding: 10px;
+    margin: 10px;
+    
+    width: 990px;
+    height: 1000px;
+    
+    background-color: rgb(119,205,64);
+}
+
+

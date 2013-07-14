@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}index.css">
+    </head>
+    <body >
+        <div id = "body" class = "d">
+            <center id = "title" class = "d">
+                WELCOM TO X20 SITE!</br>
+            </center>
+            <center id = "subtitle" class = "d">
+                This is user login:</br></br>
+            </center>
+            <form id = "form" action = "/login/" method = "POST" class = "d">
+                {% csrf_token %}
+                Username:
+                <input name = "user" type = "text" /></br></br>
+                Password:
+                <input name = "pass" type = "password" /></br></br>
+                <input name = "submit" type = "submit" value = "login"/>
+                <center id = "wrong" class = 'd'>
+                    Wrong username or password!
+                </center>
+            </form>
+        </div>
+    </body>
+</html>
