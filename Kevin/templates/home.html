@@ -1,0 +1,27 @@
+{% extends "frame.html" %}
+
+{% block CSS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}homepage.css" />
+{% endblock %}
+
+{% block title %}
+<title> X20 Homepage </title>
+{% endblock %}
+
+{% block content %}
+<a href = "/message/">
+<div id = "M" class = "d b1 blo">
+    Message
+</div>
+</a>
+<div id = "F" class = "d b2 blo">
+    File
+</div></br>
+<div id = "S" class = "d b2 blo">
+    Status
+</div>
+    
+<div id = "L" class = "d b1 blo">
+    Language
+</div>
+{% endblock %}

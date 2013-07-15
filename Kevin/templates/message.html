@@ -1,0 +1,25 @@
+{% extends "frame.html" %}
+
+{% block CSS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}message.css" />
+{% endblock %}
+
+{% block title %}
+<title> X20 Message </title>
+{% endblock %}
+
+{% block content %}
+
+<div id = "friends" class = "d b1">
+    Friends:</br>
+    {% for user in friends %}
+    <div id = "friend" class = "d b2">
+        {{user.username}}</br>
+    </div>
+    {% endfor %}
+</div>
+<div id = "messages" class = "d b1">
+    
+</div>
+
+{% endblock %}

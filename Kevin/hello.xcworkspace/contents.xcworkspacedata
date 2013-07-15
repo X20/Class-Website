@@ -8,6 +8,12 @@
          location = "group:homepage.css">
       </FileRef>
       <FileRef
+         location = "group:message.css">
+      </FileRef>
+      <FileRef
+         location = "group:frame.css">
+      </FileRef>
+      <FileRef
          location = "group:index.css">
       </FileRef>
    </Group>
@@ -37,7 +43,13 @@
          location = "group:indexw.html">
       </FileRef>
       <FileRef
-         location = "group:homepage.html">
+         location = "group:message.html">
+      </FileRef>
+      <FileRef
+         location = "group:home.html">
+      </FileRef>
+      <FileRef
+         location = "group:frame.html">
       </FileRef>
       <FileRef
          location = "group:userindex.html">

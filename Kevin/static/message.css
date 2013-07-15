@@ -1,0 +1,53 @@
+
+#friends
+{
+    padding: 10px;
+    
+    width: 100px;
+    height: 400px;
+    
+    text-align: center;
+    
+    font-size: 13pt;
+    
+    margin: 10px;
+    /*
+     background-image: url(image/2.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-width: 200px;
+     */
+    
+    
+    color: white;
+    
+    position: relative;
+    float: left;
+    
+    //border: red solid thin;
+}
+#friend
+{
+    padding: 20px;
+    
+    margin: 5px;
+    
+    /*
+     background-image: url(image/1.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     */
+}
+#messages
+{
+    position: relative;
+    float: left;
+    
+    padding: 10px;
+    margin: 10px;
+    
+    width: 990px;
+    height: 1000px;
+}
+
+

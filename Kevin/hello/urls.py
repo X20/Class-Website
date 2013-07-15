@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^login/$', 'userlogin.views.userlogin'),
     url(r'^logout/$', 'userlogin.views.userlogout'),
     url(r'^home/$', 'userlogin.views.home'),
+    url(r'^message/$', 'userlogin.views.message'),
     # url(r'^user/', include(login_urls)),
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}frame.css" />
+        {% block CSS %}
+        {% endblock %}
+        {% block title %}
+        {% endblock %}
+    </head>
+    <body class = "d">
+        <div id = "indent">
+            
+        </div>
+        <div id = "header" class = "d b1">
+            <div id = "userinfo" class = "d b2">
+                <div id = "userhead" class = "d">
+                    <image src = "{{ STATIC_URL }}image/3.jpg" width = 100px>
+                </div>
+                <div id = "userother" class = "d">
+                    {{name}}</br>
+                    Last login: 2013.7.13 22:23 </br>
+                    <a href = "/logout/"> logout </a>
+                </div>
+            </div>
+            <div id = "logo" class = "d b2">
+                <image src = "{{ STATIC_URL }}image/6.png" width = 260px>
+            </div>
+            <a href = "/home/">
+                <div id = "back" class = "d b2">
+                    HOME
+                </div>
+            </a>
+        </div>
+        {% block content %}
+        {% endblock %}
+        <div id = "footer" class = "d b1">
+            X20@2013 All Rights Reserved.
+        </div>
+    </body>
+</html>
