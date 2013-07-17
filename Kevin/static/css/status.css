@@ -1,0 +1,85 @@
+
+#filter
+{
+    padding: 10px;
+    margin: 1%;
+    
+    width: 13%;
+    height: 900px;
+    
+    text-align: center;
+    
+    font-size: 20pt;
+    
+    /*
+     background-image: url(image/2.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-width: 200px;
+     */
+    
+    
+    color: white;
+    
+    position: relative;
+    float: left;
+
+}
+#friends
+{
+    padding: 20px;
+    margin: 5px;
+    font-size: 13pt;
+    
+    height: 20px;
+    line-height: 20px;
+    
+    /*
+     background-image: url(image/1.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     */
+}
+#sensorf
+{
+    position: absolute;
+    top: 42px;
+    
+    width: 82%;
+    height: 60px;
+    
+    margin: 5px;
+    
+    border: red solid thin;
+    
+    //background-color: #101010;
+}
+
+#groups
+{
+    padding: 20px;
+    margin: 5px;
+    font-size: 13pt;
+    
+    height: 20px;
+    line-height: 20px;
+    
+    
+}
+
+#status
+{
+    position: relative;
+    float: left;
+    
+    padding: 5px;
+    margin: 1%;
+    
+    width: 80%;
+    height: 1000px;
+    
+    color: white;
+    text-align: center;
+}
+
+

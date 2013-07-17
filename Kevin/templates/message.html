@@ -1,7 +1,7 @@
 {% extends "frame.html" %}
 
-{% block CSS %}
-<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}message.css" />
+{% block CSSJS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}css/message.css" />
 {% endblock %}
 
 {% block title %}
@@ -10,16 +10,16 @@
 
 {% block content %}
 
-<div id = "friends" class = "d b1">
+<div id = "friends" class = "d b3">
     Friends:</br>
     {% for user in friends %}
-    <div id = "friend" class = "d b2">
+    <div id = "friend" class = "d b4">
         {{user.username}}</br>
     </div>
     {% endfor %}
 </div>
-<div id = "messages" class = "d b1">
-    
+<div id = "messages" class = "d b3">
+    messages you've recieved.
 </div>
 
 {% endblock %}

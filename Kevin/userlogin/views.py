@@ -39,13 +39,3 @@ def home(request):
         return render_to_response('home.html', c, context_instance=RequestContext(request))
     else:
         return HttpResponseRedirect('/')
-
-def message(request):
-    c = {}
-    if request.user.is_authenticated():
-        c['name'] = request.user.username
-        c['friends'] = User.objects.all()
-        return render_to_response('message.html', c, context_instance=RequestContext(request))
-    else:
-        return HttpResponseRedirect('/')
-

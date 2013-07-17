@@ -1,7 +1,7 @@
 {% extends "frame.html" %}
 
-{% block CSS %}
-<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}homepage.css" />
+{% block CSSJS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}css/homepage.css" />
 {% endblock %}
 
 {% block title %}
@@ -10,18 +10,26 @@
 
 {% block content %}
 <a href = "/message/">
-<div id = "M" class = "d b1 blo">
-    Message
-</div>
+    <div id = "M" class = "d b3 blo">
+        Message
+    </div>
 </a>
-<div id = "F" class = "d b2 blo">
-    File
-</div></br>
-<div id = "S" class = "d b2 blo">
-    Status
+<a href = "/file/">
+    <div id = "F" class = "d b4 blo">
+        File
+    </div>
+</a>
+</br>
+<a href = "/status/">
+    <div id = "S" class = "d b4 blo">
+        Status
+    </div>
+</a>
+<div id = "L" class = "d b3 blo">
+    Interpreter
 </div>
-    
-<div id = "L" class = "d b1 blo">
-    Language
+
+<div id = "N" class = "d blo">
+    Notifications
 </div>
 {% endblock %}
