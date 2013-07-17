@@ -156,7 +156,7 @@ body
     
     height: 50px;
     line-height: 50px;
-    width: 100%;
+    width: 99%;
     
     color: white;
     text-align: center;
@@ -168,6 +168,7 @@ body
 .nav:hover
 {
     background-color: #436EEE;
+    //background-color: #AAAAAA;
 }
 
 #navimess

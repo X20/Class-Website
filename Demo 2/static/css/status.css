@@ -28,11 +28,15 @@
 #friends
 {
     padding: 20px;
-    margin: 5px;
+    margin: 0px;
     font-size: 13pt;
     
+    //width: 100%;
     height: 20px;
     line-height: 20px;
+    
+    position: relative;
+    //z-index: 2
     
     /*
      background-image: url(image/1.jpg);
@@ -40,31 +44,85 @@
      background-position: center;
      */
 }
+#blockf
+{
+    margin: 0px;
+    
+    height: 200px;
+    
+    position: relative;
+    
+    //border: red solid thin;
+    
+    overflow: hidden;
+}
+#slidef
+{
+    margin: 0px;
+    
+    //height: 200px;
+    
+    position: relative;
+    
+    //border: red solid thin;
+    
+    overflow: hidden;
+}
 #sensorf
 {
-    position: absolute;
-    top: 42px;
     
-    width: 82%;
-    height: 60px;
-    
+    //padding: 20px;
     margin: 5px;
+    font-size: 13pt;
     
-    border: red solid thin;
+    height: 60px;
+    //line-height: 20px;
+    
+    position: relative;
+    
+    //border: red solid thin;
+    
+    overflow: hidden;
     
     //background-color: #101010;
+}
+
+.fri
+{
+    position: relative;
+    margin-top: 2px;
 }
 
 #groups
 {
     padding: 20px;
-    margin: 5px;
+    margin: 0px;
     font-size: 13pt;
     
+    //width: 100%;
     height: 20px;
     line-height: 20px;
     
+    position: relative;
+    //z-index: 2
+}
+
+#sensorg
+{
     
+    //padding: 20px;
+    margin: 5px;
+    font-size: 13pt;
+    
+    height: 60px;
+    //line-height: 20px;
+    
+    position: relative;
+    
+    border: red solid thin;
+    
+    overflow: hidden;
+    //background-color: #101010;
 }
 
 #status

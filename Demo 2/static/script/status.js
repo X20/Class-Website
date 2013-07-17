@@ -1,0 +1,20 @@
+$(document).ready(function(){
+                  $("#sensorf").mouseenter(function(){
+                                           $("#sensorf").stop().animate({height:"260px"},500);
+                                           });
+                  $("#sensorf").mouseleave(function(){
+                                           $("#sensorf").stop().animate({height:"60px"},500);
+                                           });
+                  $("#sensorg").mouseenter(function(){
+                                           $("#sensorg").stop().animate({height:"260px"},500);
+                                           });
+                  $("#sensorg").mouseleave(function(){
+                                           $("#sensorg").stop().animate({height:"60px"},500);
+                                           });
+                  $("#blockf").mouseenter(function(){
+                                          $("#slidef").stop().animate({top:"-100px"},1000);
+                                          })
+                  $("#blockf").mouseleave(function(){
+                                          $("#slidef").stop().animate({top:"0px"},1000);
+                                          })
+                  })
