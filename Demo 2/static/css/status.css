@@ -48,7 +48,7 @@
 {
     margin: 0px;
     
-    height: 200px;
+    height: 212px;
     
     position: relative;
     
@@ -90,7 +90,12 @@
 .fri
 {
     position: relative;
+    height : 28px;
     margin-top: 2px;
+}
+.fri:hover
+{
+    background-color : #888888;
 }
 
 #groups
