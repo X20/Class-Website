@@ -18,14 +18,28 @@ $(document).ready(function(){
     });
     function a(){
         if(active == 1){
+    cur_i = $("#slidef").height() / 30;
         $("#naruhodo").html(cur_y + "cur_b=" + cur_b + "\n anchor ="+anchor);
+            /*if(anchor < 0 || anchor >= cur_i)
+            {
+                $("#slidef").stop().animate(
+                    top : "0px"
+                ),
+                50,
+                "linear",
+                function()
+                {
+                    anchor = 0;
+                    cur_b = 0;
+                    }
+                }*/
         if(cur_b == 0)
         {
-            if((cur_y <= 70) && (anchor != 0))
+            if((cur_y <= 66) && (anchor != 0))
             {
                 cur_b = 1;
-                time = (cur_y + 30) * 5;
-                $("#slidef").animate(
+                time = (cur_y + 20) * 5;
+                $("#slidef").stop().animate(
                 {
                     top : (-(anchor-1)*30).toString() + "px"
                 },
@@ -37,11 +51,11 @@ $(document).ready(function(){
                     cur_b = 0;
                 })
             }
-            if((cur_y>=142) && (anchor != cur_i - 7))
+            if((cur_y>=Number($("#blockf").height())- 66) && (anchor != cur_i - 7))
             {
                 cur_b = 1;
-                time = (242 - cur_y) * 5;
-                $("#slidef").animate({
+                time = (232 - cur_y) * 5;
+                $("#slidef").stop().animate({
                     top : (-(anchor + 1) * 30).toString() + "px"
                 },
                 time,
@@ -62,20 +76,23 @@ $(document).ready(function(){
         active = 1;
         })
     $("#blockf").mouseover(function(e){
-        cur_y = e.clientY - 247;
+        cur_y = e.clientY - $("#blockf").offset().top;
     })
+    $("#blockf").mouseleave(function(e){
+            active = 0;
+        })
     $(".fri").mouseenter(function()
     {
         $(this).css("background-color", "#cf3a00");
         $("#blockf").css("overflow", "hidden");
     })
-        $(".fri").mouseleave(function(){
+    $(".fri").mouseleave(function(){
         $(this).css("background-color", "#df4a10");
     })
     $("#blockf").mouseleave(function(){
-        $("#slidef").animate({
+        $("#slidef").stop().animate({
             top : (-anchor * 30).toString() + "px"
-            },5000,"swing",function(){cur_b=0, active=0});
+            },500,"swing",function(){cur_b=0, active=0});
         cur_b=0;
     })
 })

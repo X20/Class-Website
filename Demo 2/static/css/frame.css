@@ -2,7 +2,8 @@
 {
     //border: red solid thin;
     border-radius: 15px;
-    font-family: "Myriad Pro", "Arial";
+    font-family: "Myriad Pro", "Arial", "DejaVu Sans";
+    font-weight : bold;
     text-decoration: none;
     //margin: 10px;
 }

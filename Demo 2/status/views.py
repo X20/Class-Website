@@ -11,8 +11,8 @@ def status(request):
     c = {}
     if request.user.is_authenticated():
         c['name'] = request.user.username
-        c['groups'] = Group.objects.all()#.order_by('name')
-        c['friends'] = User.objects.all()#.order_by('username')
+        c['groups'] = Group.objects.all().order_by('name')
+        c['friends'] = User.objects.all().order_by('username')
         return render_to_response('status.html', c, context_instance=RequestContext(request))
     else:
         return HttpResponseRedirect('/')
