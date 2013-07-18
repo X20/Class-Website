@@ -5,12 +5,6 @@
     font-family: "Myriad Pro";
     text-align: center;
 }
-
-a:link {text-decoration:none;}    /* 未被访问的链接 */
-a:visited {text-decoration:none;} /* 已被访问的链接 */
-/* 鼠标指针移动到链接上 */
-a:active {text-decoration:none;}
-
 .b1
 {
     background-color: #63B8FF;
@@ -21,15 +15,6 @@ a:active {text-decoration:none;}
     background-color: #6495ED;
 }
 
-#form
-{
-    position: relative;
-    top: 10px;
-    text-align: center; 
-    font-family: "Courier";
-    color: #191970;
-}
-
 #body
 {
     border: red dolid thin;
@@ -38,11 +23,11 @@ a:active {text-decoration:none;}
     float: center;
     //border: blue solid thin;
     
-    width: 40%;
+    width: 50%;
     height: 42%;
     
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 15%;
     
     background-color: #63B8FF;
@@ -58,13 +43,32 @@ a:active {text-decoration:none;}
     
     width: 100%;
 }
-#subtitle
+
+#form
 {
     position: relative;
+    float: left;
+    top: 10px;
+    text-align: left;
+    //font-family: "";
+    color: #4949A0;
+    font-size: 5;
+}
+
+#label
+{
+    position: relative;
+    float: left;
+    
+    top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    
+    text-align: right;
+    //font-family: "";
     color: #191970;
     
-    font-size: 15pt;
-    width: 100%;
+    line-height: 23px;
 }
 
 #submit
@@ -76,9 +80,7 @@ a:active {text-decoration:none;}
     
     height: 30px;
     line-height: 30px;
-    margin-left: 25%;
-    margin-right: 5%;
-    width: 20%;
+    width: 35%;
     
     color: white;
     
@@ -89,27 +91,12 @@ a:active {text-decoration:none;}
     background-color: #436EEE;
 }
 
-#toregister
+#warning
 {
     position: relative;
     float: left;
-    
-    height: 30px;
-    line-height: 30px;
-    margin-right: 25%;
-    margin-left: 5%;
-    width: 20%;
-    
-    color: white;
-}
-#toregister:hover
-{
-    background-color: #436EEE;
-}
-
-#wrong
-{
-    position: relative;
-    top: 13px;
+    margin-top: 20px;
+    width: 100%;
+    //top: 13px;
     color: #B22222;
 }

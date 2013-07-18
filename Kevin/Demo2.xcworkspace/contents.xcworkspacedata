@@ -117,6 +117,9 @@
             location = "group:homepage.css">
          </FileRef>
          <FileRef
+            location = "group:register.css">
+         </FileRef>
+         <FileRef
             location = "group:index.css">
          </FileRef>
          <FileRef

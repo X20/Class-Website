@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}css/index.css">
+        <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}css/index.css" />
     </head>
     <body >
         <div id = "body" class = "d b1">
@@ -14,7 +14,7 @@
                 <form action = "login/" method = "POST" class = "d">
                     {% csrf_token %}
                     Username:
-                    <input name = "user" type = "text" /></br></br>
+                    <input name = "user" type = "text" /></br>
                     Password:
                     <input name = "pass" type = "password" /></br></br>
                     <input id = "submit" class = "d b2" type = "submit" value = "login" ></input>
