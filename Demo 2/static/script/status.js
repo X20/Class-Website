@@ -18,8 +18,9 @@ $(document).ready(function(){
     });
     function a(){
         if(active == 1){
-    cur_i = $("#slidef").height() / 30;
-        $("#naruhodo").html(cur_y + "cur_b=" + cur_b + "\n anchor ="+anchor);
+            cur_i = $("#slidef").height() / 30;
+        $(".dbg").html(cur_y + "cur_b=" + cur_b + "\n anchor ="+anchor);
+            str = cur_y + "cur_b=" + cur_b + "\n anchor ="+anchor;
             /*if(anchor < 0 || anchor >= cur_i)
             {
                 $("#slidef").stop().animate(
@@ -35,7 +36,7 @@ $(document).ready(function(){
                 }*/
         if(cur_b == 0)
         {
-            if((cur_y <= 66) && (anchor != 0))
+            if((cur_y <= 66) && (anchor > 0))
             {
                 cur_b = 1;
                 time = (cur_y + 20) * 5;
@@ -51,7 +52,7 @@ $(document).ready(function(){
                     cur_b = 0;
                 })
             }
-            if((cur_y>=Number($("#blockf").height())- 66) && (anchor != cur_i - 7))
+            if((cur_y>=Number($("#blockf").height())- 66) && (anchor < cur_i - 7))
             {
                 cur_b = 1;
                 time = (232 - cur_y) * 5;
