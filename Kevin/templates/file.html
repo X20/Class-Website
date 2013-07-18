@@ -1,0 +1,34 @@
+{% extends "frame.html" %}
+
+{% block CSSJS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}css/file.css" />
+{% endblock %}
+
+{% block title %}
+<title> X20 File Sharing </title>
+{% endblock %}
+
+{% block content %}
+
+<div id = "groups" class = "d b3">
+    Groups</br>
+    {% for group in groups %}
+    <div class = "d b4 group">
+        {{group.name}}</br>
+    </div>
+    {% endfor %}
+</div>
+<div id = "files" class = "d b3">
+    <div id = "blocktitle" class = "d">
+        Shared Files
+    </div>
+    <div id = "groupfiles" class = "d b4 p3">
+        group uploaded files.
+    </div>
+    <div id = "yourfiles" class = "d b4 p3">
+        Your uploaded files.
+    </div>
+    
+</div>
+
+{% endblock %}
