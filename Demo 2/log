@@ -1,3 +1,0 @@
-Site Structure
-/: if ser logged in -> /homepage/
-   else -> /login/
