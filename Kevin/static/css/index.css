@@ -1,70 +1,119 @@
-.d
-{
-    //border: red solid thin;
-    border-radius: 15px;
-    font-family: "Myriad Pro";
+#header2 {
+    color: white;
+    font-size: 55px;
+
+    padding-left: 10%;
+
+    margin: 1%;
+    
+    width: 87%;
+    height: 93px;
+    line-height:93px;
+    position:fixed;
+    
+    top: 0px;
+}
+
+#navi {
+    position:relative;
+    float: left;
+
     text-align: center;
+
+    height: 50%;
+    left:10%;
+    top:28%;
+    width:20%;
+    
+    font-size:20px;
+    color: white;
+    font-family:'Myriad Pro', "Arial";
 }
 
-a:link {text-decoration:none;}    /* 未被访问的链接 */
-a:visited {text-decoration:none;} /* 已被访问的链接 */
-/* 鼠标指针移动到链接上 */
-a:active {text-decoration:none;}
-
-.b1
+#buttonl {
+    margin-top:0%;
+    height:45%;
+    line-height: 120px;
+    //padding-top: 40%;
+    background-color:rgb(255, 187, 37);
+}
+#buttonl:hover
 {
-    background-color: #63B8FF;
+    background-color: rgb(255, 167, 17);
 }
 
-.b2
+#buttons {
+    margin-top:10%;
+    //margin-bottom: 0%;
+    height:45%;
+    //padding-top: 40%;
+    line-height:120px;
+    background-color:rgb(223, 74, 26);
+}
+#buttons:hover
 {
-    background-color: #6495ED;
+    background-color: rgb(193, 54, 6);
+}
+/*
+#label
+{
+    position: relative;
+    height: 70px;
+    top: -4%;
+    line-height: 40px;
+}
+*/
+#lb1
+{
+    visibility: visible;
 }
 
 #form
 {
     position: relative;
-    top: 10px;
+    top: 15%;
     text-align: center; 
     font-family: "Courier";
     color: #191970;
+    height: 30%;
+    //line-height: 30px;
+}
+#login
+{
+    position: relative;
+    float: left;
+    top: 28%;
+    left:12%;
+    width: 35%;
+    height: 50%;
 }
 
-#body
-{
-    border: red dolid thin;
-    //padding: 250px;
-    position: reletive;
-    float: center;
-    //border: blue solid thin;
-    
-    width: 40%;
-    height: 42%;
-    
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 15%;
-    
-    background-color: #63B8FF;
+#username{
 }
-#title
-{
-    position: relative;
-    padding-top: 20px;
-    
-    text-align: center;
-    font-size: 20pt;
-    color: #191970;
-    
-    width: 100%;
+
+#password {
 }
-#subtitle
-{
+
+.in {
+    height:40px;
+    width: 300px;
+    //display:inline-block;
+    outline:none;
+    border:none;
+    margin: px;
+    padding: 3px;
+    background-color: rgb(255, 237, 130);
+    font-size: 20px;
+}
+
+.default {
     position: relative;
-    color: #191970;
-    
-    font-size: 15pt;
-    width: 100%;
+    top:30px;
+    right: 100px;
+    //bottom:1px;
+    //left:2px;
+    font-size: 20px;
+    color:#999;
 }
 
 #submit
@@ -86,25 +135,12 @@ a:active {text-decoration:none;}
 }
 #submit:hover
 {
-    background-color: #436EEE;
+    background-color: rgb(193, 54, 6);
 }
 
-#toregister
-{
-    position: relative;
-    float: left;
-    
-    height: 30px;
-    line-height: 30px;
-    margin-right: 25%;
-    margin-left: 5%;
-    width: 20%;
-    
-    color: white;
-}
-#toregister:hover
-{
-    background-color: #436EEE;
+#signup {
+    position:relative;
+    float:left;
 }
 
 #wrong
@@ -112,4 +148,17 @@ a:active {text-decoration:none;}
     position: relative;
     top: 13px;
     color: #B22222;
+}
+
+#footer2 {
+    position: fixed;
+    float: left;
+    
+    width: 97%;
+    bottom:0;
+    text-align: center;
+    
+    color: white;
+    
+    margin: 10px;
 }

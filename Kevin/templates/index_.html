@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}css/index.css" />
+    </head>
+    <body >
+        <div id = "body1" class = "d b1">
+            <div id = "title1" class = "d">
+                WELCOME TO X20 SITE!</br>
+            </div>
+            <div id = "subtitle" class = "d">
+                This is user login:
+            </div>
+            <div id = "form1">
+                <form action = "login/" method = "POST" class = "d">
+                    {% csrf_token %}
+                    Username:
+                    <input name = "user" type = "text" /></br>
+                    Password:
+                    <input name = "pass" type = "password" /></br></br>
+                    <input id = "submit1" class = "d b2" type = "submit" value = "login" ></input>
+                    <!--a href = "toRegister/"-->
+                        <div id = "toregister" class = "d b2">
+                            register
+                        </div>
+                    <!--/a-->
+                </form>
+            </div>
+        </div>
+        
+        <div id = "body2" class = "d b1">
+            <div id = "title2" class = "d">
+                REGISTER PAGE
+            </div>
+            <div id = "label" class = "d">
+                username:</br>
+                password:</br>
+                confirm password:</br>
+                email:</br>
+            </div>
+            <div id = "form2" class = "d">
+                <form action='/register/' method='POST'>
+                    {% csrf_token %}
+                    <input class = "input" type='text' name='newUsername'/>  within 20 chars, use only number, charactor and _</br>
+                    <input class = "input" type='password' name='password'/>  longger that 6 chars and within 30 chars</br>
+                    <input class = "input" type='password' name='confirmpassword'>  should be same with password</br>
+                        <input class = "input" type='text' name='email'/>  should be valid and will be used for necessary contacts</br>
+                        <input id = "submit2" class = "d b2" type='submit' value="Submit" />
+                        </form>
+            </div>
+            <div id = "warning" class = "d">
+                {{ warning }}
+            </div>
+        </div>
+    </body>
+</html>

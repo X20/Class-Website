@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:hello.db">
-   </FileRef>
-   <FileRef
-      location = "group:log">
-   </FileRef>
-   <FileRef
-      location = "group:manage.py">
-   </FileRef>
-   <Group
-      location = "group:userlogin"
-      name = "userlogin">
-      <FileRef
-         location = "group:__init__.py">
-      </FileRef>
-      <FileRef
-         location = "group:__init__.pyc">
-      </FileRef>
-      <FileRef
-         location = "group:models.py">
-      </FileRef>
-      <FileRef
-         location = "group:models.pyc">
-      </FileRef>
-      <FileRef
-         location = "group:tests.py">
-      </FileRef>
-      <FileRef
-         location = "group:views.py">
-      </FileRef>
-      <FileRef
-         location = "group:views.pyc">
-      </FileRef>
-   </Group>
    <Group
       location = "group:file"
       name = "file">
@@ -58,8 +24,8 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:message"
-      name = "message">
+      location = "group:hello"
+      name = "hello">
       <FileRef
          location = "group:__init__.py">
       </FileRef>
@@ -67,21 +33,39 @@
          location = "group:__init__.pyc">
       </FileRef>
       <FileRef
-         location = "group:models.py">
+         location = "group:log">
       </FileRef>
       <FileRef
-         location = "group:tests.py">
+         location = "group:settings.py">
       </FileRef>
       <FileRef
-         location = "group:views.py">
+         location = "group:settings.pyc">
       </FileRef>
       <FileRef
-         location = "group:views.pyc">
+         location = "group:urls.py">
+      </FileRef>
+      <FileRef
+         location = "group:urls.pyc">
+      </FileRef>
+      <FileRef
+         location = "group:wsgi.py">
+      </FileRef>
+      <FileRef
+         location = "group:wsgi.pyc">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:hello.db">
+   </FileRef>
+   <FileRef
+      location = "group:log">
+   </FileRef>
+   <FileRef
+      location = "group:manage.py">
+   </FileRef>
    <Group
-      location = "group:status"
-      name = "status">
+      location = "group:message"
+      name = "message">
       <FileRef
          location = "group:__init__.py">
       </FileRef>
@@ -117,13 +101,16 @@
             location = "group:homepage.css">
          </FileRef>
          <FileRef
-            location = "group:register.css">
-         </FileRef>
-         <FileRef
             location = "group:index.css">
          </FileRef>
          <FileRef
+            location = "group:index_.css">
+         </FileRef>
+         <FileRef
             location = "group:message.css">
+         </FileRef>
+         <FileRef
+            location = "group:register.css">
          </FileRef>
          <FileRef
             location = "group:status.css">
@@ -173,9 +160,34 @@
             location = "group:navi.js">
          </FileRef>
          <FileRef
+            location = "group:index.js">
+         </FileRef>
+         <FileRef
             location = "group:status.js">
          </FileRef>
       </Group>
+   </Group>
+   <Group
+      location = "group:status"
+      name = "status">
+      <FileRef
+         location = "group:__init__.py">
+      </FileRef>
+      <FileRef
+         location = "group:__init__.pyc">
+      </FileRef>
+      <FileRef
+         location = "group:models.py">
+      </FileRef>
+      <FileRef
+         location = "group:tests.py">
+      </FileRef>
+      <FileRef
+         location = "group:views.py">
+      </FileRef>
+      <FileRef
+         location = "group:views.pyc">
+      </FileRef>
    </Group>
    <Group
       location = "group:templates"
@@ -193,13 +205,16 @@
          location = "group:index.html">
       </FileRef>
       <FileRef
+         location = "group:index_.html">
+      </FileRef>
+      <FileRef
          location = "group:indexw.html">
       </FileRef>
       <FileRef
-         location = "group:register.html">
+         location = "group:message.html">
       </FileRef>
       <FileRef
-         location = "group:message.html">
+         location = "group:register.html">
       </FileRef>
       <FileRef
          location = "group:status.html">
@@ -209,8 +224,8 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:hello"
-      name = "hello">
+      location = "group:userlogin"
+      name = "userlogin">
       <FileRef
          location = "group:__init__.py">
       </FileRef>
@@ -218,25 +233,19 @@
          location = "group:__init__.pyc">
       </FileRef>
       <FileRef
-         location = "group:log">
+         location = "group:models.py">
       </FileRef>
       <FileRef
-         location = "group:settings.py">
+         location = "group:models.pyc">
       </FileRef>
       <FileRef
-         location = "group:settings.pyc">
+         location = "group:tests.py">
       </FileRef>
       <FileRef
-         location = "group:urls.py">
+         location = "group:views.py">
       </FileRef>
       <FileRef
-         location = "group:urls.pyc">
-      </FileRef>
-      <FileRef
-         location = "group:wsgi.py">
-      </FileRef>
-      <FileRef
-         location = "group:wsgi.pyc">
+         location = "group:views.pyc">
       </FileRef>
    </Group>
 </Workspace>

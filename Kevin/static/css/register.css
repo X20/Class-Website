@@ -15,7 +15,7 @@
     background-color: #6495ED;
 }
 
-#body
+#body2
 {
     border: red dolid thin;
     //padding: 250px;
@@ -24,7 +24,7 @@
     //border: blue solid thin;
     
     width: 50%;
-    height: 42%;
+    height: 47%;
     
     margin-left: 25%;
     margin-right: 25%;
@@ -32,7 +32,7 @@
     
     background-color: #63B8FF;
 }
-#title
+#title2
 {
     position: relative;
     padding-top: 20px;
@@ -44,7 +44,7 @@
     width: 100%;
 }
 
-#form
+#form2
 {
     position: relative;
     float: left;
@@ -52,7 +52,8 @@
     text-align: left;
     //font-family: "";
     color: #4949A0;
-    font-size: 5;
+    font-size: 8pt;
+    line-height: 30px;
 }
 
 #label
@@ -68,10 +69,19 @@
     //font-family: "";
     color: #191970;
     
-    line-height: 23px;
+    line-height: 30px;
 }
 
-#submit
+.input
+{
+    border: none;
+    background-color: #C6E2FF;
+    height: 23px;
+    font-size: 13pt;
+    width: 150px;
+}
+
+#submit2
 {
     border: none;
     
@@ -86,7 +96,7 @@
     
     font-size: 11pt;
 }
-#submit:hover
+#submit2:hover
 {
     background-color: #436EEE;
 }

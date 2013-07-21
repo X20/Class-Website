@@ -1,30 +1,37 @@
 <html>
     <head>
         <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}css/index.css" />
+        <link rel = "stylesheet" type = "text/css" href = "{{STATIC_URL}}css/frame.css" />
+        <script type = "text/javascript" src= "{{ STATIC_URL }}script/jQuery.js"> </script>
+        <script type = "text/javascript" src= "{{ STATIC_URL }}script/index.js"> </script>
+        <title>X20 Log in</title>
     </head>
     <body >
-        <div id = "body" class = "d b1">
-            <div id = "title" class = "d">
-                WELCOME TO X20 SITE!</br>
+        <div id="header2" class="d b1">
+            Class Online
+        </div>
+        <div id="navi" class="d">
+            <div id="buttonl" class="d">
+                log in
             </div>
-            <div id = "subtitle" class = "d">
-                This is user login:
+            <div id="buttons" class="d">
+                sign up
             </div>
-            <div id = "form">
-                <form action = "login/" method = "POST" class = "d">
+        </div>
+        <div id = "login" class = "d b3">
+            <div id = "form" class = "d">
+                <form action = "login/" method = "POST" id = "Form" class = "d">
                     {% csrf_token %}
-                    Username:
-                    <input name = "user" type = "text" /></br>
-                    Password:
-                    <input name = "pass" type = "password" /></br></br>
-                    <input id = "submit" class = "d b2" type = "submit" value = "login" ></input>
-                    <a href = "toRegister/">
-                        <div id = "toregister" class = "d b2">
-                            register
-                        </div>
-                    </a>
+                    <label id = "lb1" class="default d">User name</label></br>
+                    <input name = "user" type = "text" id="inputu" class="in d"/></br>
+                    <label id = "lb2" class="default d">Pass Word</label></br>
+                    <input name = "pass" type = "password" id="inputp" class="in d"/></br></br>
+                    <input id = "submit" class = "d b4" type = "submit" value = "log in" />
                 </form>
             </div>
         </div>
+    <div id = "footer2" class = "d b1">
+            X20&copy 2013 All Rights Reserved.
+    </div>
     </body>
 </html>

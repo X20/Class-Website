@@ -22,8 +22,8 @@ urlpatterns = patterns('',
     url(r'^status/$', 'status.views.status'),
                        
     # Quote zhazhazhang
-    url(r'^toRegister/$', 'userlogin.views.toRegister'),
-    url(r'^register/$', 'userlogin.views.register'),
+    # url(r'^toRegister/$', 'userlogin.views.toRegister'),
+    # url(r'^register/$', 'userlogin.views.register'),
     # QuoteEnd
                        
     # url(r'^user/', include(login_urls)),

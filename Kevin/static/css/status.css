@@ -54,7 +54,7 @@
 {
     margin: 0px;
     
-    height: 200px;
+    height: 212px;
     
     position: relative;
     
@@ -97,6 +97,9 @@
 {
     position: relative;
     margin-top: 2px;
+    
+    height: 28px;
+    line-height: 28px;
 }
 .fri:hover
 {

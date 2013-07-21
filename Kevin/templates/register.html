@@ -18,10 +18,10 @@
             <div id = "form" class = "d">
                 <form action='/register/' method='POST'>
                     {% csrf_token %}
-                    <input type='text' name='newUsername'/>  within 20 chars, use only number, charactor and _</br>
-                    <input type='password' name='password'/>  longger that 6 chars and within 30 chars</br>
-                    <input type='password' name='confirmpassword'>  should be same with password</br>
-                    <input type='text' name='email'/>  should be valid and will be used for necessary contacts</br></br>
+                    <input class = "input" type='text' name='newUsername'/>  within 20 chars, use only number, charactor and _</br>
+                    <input class = "input" type='password' name='password'/>  longger that 6 chars and within 30 chars</br>
+                    <input class = "input" type='password' name='confirmpassword'>  should be same with password</br>
+                    <input class = "input" type='text' name='email'/>  should be valid and will be used for necessary contacts</br>
                     <input id = "submit" class = "d b2" type='submit' value="Submit" />
                 </form>
             </div>

@@ -42,10 +42,10 @@ def home(request):
     else:
         return HttpResponseRedirect('/')
 
-def toRegister(request):
-	c={}
-	c.update(csrf(request))
-	return render_to_response('register.html', c, context_instance=RequestContext(request))
+#def toRegister(request):
+    #c={}
+    #c.update(csrf(request))
+    #return render_to_response('register.html', c, context_instance=RequestContext(request))
 
 def checkUsername (a):
     if len(a) >20:
