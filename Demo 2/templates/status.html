@@ -1,0 +1,40 @@
+{% extends "frame.html" %}
+
+{% block CSSJS %}
+<link rel = "stylesheet" type = "text/css" href = "{{ STATIC_URL }}css/status.css" />
+<script type = "text/javascript" src = "{{ STATIC_URL }}script/status.js"> </script>
+{% endblock %}
+
+{% block title %}
+<title> X20 Message </title>
+{% endblock %}
+
+{% block content %}
+
+<div id = "filter" class = "d b3">
+    Filter</br>
+    <div id = "sensorf" class = "d">
+        <div id = "friends" class = "d b4">
+            Friends
+        </div>
+        <div id = "blockf" class = "d">
+            <div id = "slidef" class = "d">
+                {% for friend in friends %}
+                <div class = " b4 fri">
+                    {{ friend.username }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div id = "sensorg" class = "d">
+        <div id = "groups" class = "d b4">
+            Groups
+        </div>
+    </div>
+</div>
+<div id = "status" class = "d b3">
+    Status you can see.
+</div>
+
+{% endblock %}

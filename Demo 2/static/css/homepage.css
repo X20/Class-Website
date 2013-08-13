@@ -1,0 +1,56 @@
+.blo
+{
+    position: relative;
+    float: left;
+    
+    text-align: center;
+    
+    height: 200px;
+    line-height: 200px;
+    
+    margin: 1%;
+    
+    font-size: 20pt;
+    color: white;
+}
+#M
+{
+    width: 35%;
+}
+#M:hover
+{
+    background-color: rgb(255, 167, 17);
+}
+#F
+{
+    width: 61%;
+}
+#F:hover
+{
+    background-color: rgb(193, 54, 6);
+}
+#S
+{
+    width: 66%;
+}
+#S:hover
+{
+    background-color: rgb(193, 54, 6);
+}
+#L
+{
+    width: 30%;
+}
+#L:hover
+{
+    background-color: rgb(255, 167, 17);
+}
+#N
+{
+    width: 98%;
+    background-color: #aaaaaa;
+}
+#N:hover
+{
+    background-color: gray;
+}
