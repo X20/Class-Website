@@ -1,0 +1,37 @@
+$(document).ready(
+			function(){
+				$('#messege').click(
+					function(){
+						$.get(
+							"/messege/",
+							function(){}
+						)
+					}
+				)
+				$('#file').click(
+					function(){
+						$.get(
+							"/file/",
+							function(){}
+						)
+					}
+				)
+				$('#status').click(
+					function(){
+						$.get(
+							"/status/",
+							function(){}
+						)
+					}
+				)
+				$('#lang').click(
+					function(){
+						$.get(
+							"/lang/",
+							function(){}
+						)
+					}
+				)
+			}
+		)
+	
